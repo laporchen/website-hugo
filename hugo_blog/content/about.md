@@ -2,6 +2,7 @@
 title: "About Me"
 layout: staticpage
 ---
+Hello, I'm Lapor Chen.
 
 Major in CSIE at NTNU.
 

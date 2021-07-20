@@ -14,15 +14,27 @@ paginate     = 10
   homeSubtitle = "Hi. This is my website,or is it?"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = false
+  disableReadOtherPosts = true
 
   # Enable sharing buttons, if you like
   enableSharingButtons = false
 
   # Metadata mostly used in document's head
-  description = "My new homepage or blog"
+  description = "Just a blog"
   keywords = "homepage, blog"
   images = [""]
+  [params.portrait]
+    path = "img/portrait.png"
+    alt  = "My image is gone :("
+    MaxWidth = "150px"
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/laporchen/"
+  [[params.social]]
+    name = "instagram"
+    url = "https://www.instagram.com/laporchen/"
+
+    
 
 [taxonomies]
     category = "blog"
@@ -54,3 +66,7 @@ paginate     = 10
     identifier = "about"
     name       = "About"
     url        = "/about"
+  [[menu.main]]
+    identifier = "github"
+    name       = "Github"
+    url        = "https://github.com/laporchen/"
