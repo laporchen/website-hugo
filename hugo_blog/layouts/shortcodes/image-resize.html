@@ -1,2 +1,3 @@
-{{ $original := .Page.Resources.GetByPrefix (.Get 0) }} {{ $options := .Get 1 }} {{ .Scratch.Set "image" ($original.Resize $options) }} {{ $image := .Scratch.Get "image" }}
-<img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+{{- $resizedURL := .Get "resizedURL" -}} {{- $originalURL := .Get "originalURL" -}} {{- $alt := .Get "alt" -}} {{- $class := .Get "class" -}} {{- $style := .Get "style" -}}
+
+<a href="{{ $originalURL | relURL }}"><img src="{{ $resizedURL | relURL }}" alt="{{ $alt }}" class="{{ $class }}" style="{{ $style | safeCSS }}"></a>
