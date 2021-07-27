@@ -1,5 +1,7 @@
 echo -e "\033[0;32mUpdate source to GitHub...\033[0m"
 
+cd ..
+
 git add -A
 
 msg="Update source `date`"
