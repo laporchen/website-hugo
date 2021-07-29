@@ -2,13 +2,12 @@
 title: "About Me"
 layout: staticpage
 ---
-Hello, I'm Lapor Chen.
-
-Major in CSIE at NTNU.
-
-I play guitar.
-
+Hello, I'm Lapor Chen.  
+Major in CSIE at NTNU.  
+I play guitar.  
 I do random stuffs.
 
-[Github](https://github.com/laporchen/) [Twitter](https://twitter.com/lapor_chen)
+Social Links  
+[Github](https://github.com/laporchen/)   
+[Twitter](https://twitter.com/lapor_chen)
 

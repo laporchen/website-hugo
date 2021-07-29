@@ -59,6 +59,10 @@ paginate     = 10
 
   # And you can even create generic menu
   [[menu.main]]
+    identifier = "playlist"
+    name       = "Music"
+    url        = "/playlist"
+  [[menu.main]]
     identifier = "blog"
     name       = "Blog"
     url        = "/posts"
