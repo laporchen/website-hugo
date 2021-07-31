@@ -43,34 +43,35 @@ paginate     = 10
 
 [languages]
   [languages.en]
-    title = "Lapor Is Brain Dead"
-    subtitle = "Hi."
+    title = "Lapor Chen"
+    subtitle = "Hey."
     keywords = ""
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    copyright = "Lapor Chen"
     readOtherPosts = "Check other posts"
 
     [languages.en.params.logo]
-      logoText = "Lapor's Space"
+      logoText = "Lapor's Empty Brain"
       logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
+      logoCursorColor = "#C586FF"
+      logomark = "% ~"
 
-  # And you can even create generic menu
   [[menu.main]]
     identifier = "playlist"
     name       = "Music"
     url        = "/playlist"
+    weight = -9
   [[menu.main]]
     identifier = "blog"
     name       = "Blog"
     url        = "/posts"
+    weight = -99
   [[menu.main]]
     identifier = "about"
-    name       = "About"
+    name       = "About Me"
     url        = "/about"
+    weight = -999
   [[menu.main]]
     identifier = "github"
     name       = "Github"
     url        = "https://github.com/laporchen/"
+    weight = -1
