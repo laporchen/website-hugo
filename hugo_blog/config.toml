@@ -24,7 +24,7 @@ paginate     = 10
   keywords = "homepage, blog"
   images = [""]
   [params.portrait]
-    path = "img/portrait.png"
+    path = "img/main.png"
     alt  = "My image is gone :("
     MaxWidth = "150px"
   [[params.social]]
