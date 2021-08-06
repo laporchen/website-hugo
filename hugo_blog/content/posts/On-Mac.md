@@ -5,7 +5,7 @@ draft: false
 toc: false
 images:
 tags:
-  - untagged
+  - life
 ---
 Got my Macbook air today.
 Now learning macOS.

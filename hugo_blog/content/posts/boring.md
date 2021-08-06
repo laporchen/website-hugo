@@ -5,7 +5,7 @@ draft: false
 toc: false
 images:
 tags:
-  - untagged
+  - life
 ---
 
 Feel so boring in this pandemic quarantine.

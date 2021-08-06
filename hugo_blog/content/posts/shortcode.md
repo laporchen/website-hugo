@@ -5,7 +5,7 @@ draft: false
 toc: false
 images: 
 tags:
-  - untagged
+  - coding
 ---
 
 Learned to use shortcode today.

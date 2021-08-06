@@ -1,8 +1,3 @@
-[submodule "hugo_blog/themes/hello-friend-ng"]
-	path = hugo_blog/themes/hello-friend-ng
-	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git
-
-
 [submodule "hugo_blog/public"]
 	path = hugo_blog/public
 	url = git@github.com:laporchen/laporchen.github.io.git
