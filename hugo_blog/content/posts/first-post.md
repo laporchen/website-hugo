@@ -7,6 +7,6 @@ images:
 tags:
   - rick
 ---
-{{< youtube ZK1pNGmNBEc >}}
+{{<youtube id=dQw4w9WgXcQ autoplay="true" >}}
 ## Never gonna give you up
 

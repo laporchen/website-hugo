@@ -12,4 +12,4 @@ Learned to use shortcode today.
 Useful thing.
 Got my spotify playlists into this with shortcode :)
 
-{{< spotify-list type=track source=3WtIXrla0ovC9MOIY78Vr8 >}}
+{{< spotify-list type=track source=3WtIXrla0ovC9MOIY78Vr8 w="100%">}}

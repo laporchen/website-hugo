@@ -1,1 +1,1 @@
-<iframe src="https://open.spotify.com/embed/{{.Get `type`}}/{{.Get `source`}}" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://open.spotify.com/embed/{{.Get `type`}}/{{.Get `source`}}"  width="{{ if .Get `w`}}{{ .Get `w` }}{{ else }}50%{{ end }}"  height="{{ if .Get `h`}}{{ .Get `h` }}{{ else }}400px{{ end }}" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>

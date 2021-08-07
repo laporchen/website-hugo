@@ -1,5 +1,5 @@
 ---
-title: "DcBot"
+title: "Discord Bot"
 date: 2021-08-07T00:08:15+08:00
 draft: false
 toc: false
