@@ -1,5 +1,5 @@
 ---
-title: "Leetcode Biweekly Contest 86"
+title: "Leetcode Biweekly Contest 86 writeup"
 date: 2022-09-04T00:09:17+08:00
 draft: false 
 toc: false
@@ -10,7 +10,6 @@ tags:
 ---
 
 
-# Leetcode Biweekly Contest 86
 Did today's biweely contest in around 40 minutes. Todays's problems are really weird.
 
 ## [Q1 Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/)
