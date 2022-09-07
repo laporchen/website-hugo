@@ -41,6 +41,8 @@ public:
 
 I really don't have a good explaination for this one. I took a wild guess and just return false.
 
+**Update** : The reason is that for any number n greater than 4, n base n-2 will always be 12(base n-2).
+
 **Solution during contest**
 ```cpp=
 class Solution {
@@ -55,6 +57,7 @@ public:
 The row is covered when all the 1 in this row is in the selected columns, which means row with 1 in those unselected columns is not covered. So we check all the combinations for unselected columns and count the number of uncover rows in these column. We will get the answer by minimize this value. 
 
 The code is spaghetti cus my brain was jammed.
+
 **Solution during contest**
 ```cpp=
 class Solution {
