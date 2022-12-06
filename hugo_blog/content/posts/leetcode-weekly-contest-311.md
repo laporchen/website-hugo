@@ -9,12 +9,13 @@ tags:
   - solution
 ---
 
-# Leetcode Weekly Contest 311 writeup
 Didn't participate in this one. But tried virtual contest.
 
 ## [Q1 Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/)
 **Thoughts : Logic**
+
 Basically asking for LCM(n,2)
+
 **Solution during contest**
 ```cpp=
 class Solution {
@@ -27,6 +28,7 @@ public:
 
 ## [Q2 Length of the Longest Alphabetical Continuous Substring](https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring/)
 **Thoughts : Greedy**
+
 We want to find the longest alphabetical continuous. So we start from index 0, we check the what should the next alphabet letter should be. If the current one is not the expecting letter. We change the beginning to this one and continue check the rest of the string. Otherwise, we increase the length and check next letter.
 
 **Solution during contest**
@@ -53,6 +55,7 @@ public:
 ```
 ## [Q3 Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/)
 **Thoughts : BFS**
+
 We want to reverse the odd levels. We keep a number that tracking the current level. If the level is odd. We pop everything out of the queue and reverse the values. The rest of it is just basic BFS.
 
 **Solution during contest**
@@ -99,6 +102,7 @@ public:
 
 ## [Q4 Sum of Prefix Scores of Strings](https://leetcode.com/problems/sum-of-prefix-scores-of-strings/)
 **Thoughts : Trie**
+
 For every string, the score of it is the sum of all prefix string include itself. When we insert a word into trie. Add one score for each node in the path. After every word is added. We can calculate the score for each word by add all the score in the search path.
 
 **Solution during contest**
