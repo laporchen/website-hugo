@@ -4,11 +4,11 @@ layout: staticpage
 ---
 Hello, I'm Lapor Chen.  
 Major in CSIE at NTNU.  
-I play guitar.  
-I do random stuffs.  
+Mostly work with frontend now.
+
 {{<figure src="/img/aboutLogo.jpg" height="300px" >}}
 
 ### Social Links
 [Github](https://github.com/laporchen/)   
-[Twitter](https://twitter.com/lapor_chen)
+[LinkedIn](https://www.linkedin.com/in/lapor-chen-b2123a244/)
 

@@ -11,7 +11,7 @@ paginate     = 10
   dateformNumTime = "2006-01-02 15:04"
 
   # Subtitle for home
-  homeSubtitle = "Hi. This is my website,or is it?"
+  homeSubtitle = "Hello."
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = true
@@ -20,8 +20,8 @@ paginate     = 10
   enableSharingButtons = false
 
   # Metadata mostly used in document's head
-  description = "Just a blog"
-  keywords = "homepage, blog"
+  description = "Just a blog for a guy"
+  keywords = "homepage, blog, react, vue, frontend, leetcode"
   images = [""]
   [params.portrait]
     path = "img/main.png"
@@ -53,7 +53,7 @@ paginate     = 10
       logoText = "Lapor's Empty Brain"
       logoHomeLink = "/"
       logoCursorColor = "#C586FF"
-      logomark = "% ~"
+      logomark = "> "
 
   [[menu.main]]
     identifier = "playlist"
@@ -70,6 +70,11 @@ paginate     = 10
     name       = "About Me"
     url        = "/about"
     weight = -999
+  [[menu.main]]
+    identifier = "project"
+    name       = "My Projects"
+    url        = "/projects"
+    weight = -2
   [[menu.main]]
     identifier = "github"
     name       = "Github"
